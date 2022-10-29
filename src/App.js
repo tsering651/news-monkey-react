@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
+import Navbar from './components/Navbar'
+import News from './components/News'
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        i am class component
-      </div>
+        <Navbar/>
+        <News/>
+      </div> 
     )
   }
 }
